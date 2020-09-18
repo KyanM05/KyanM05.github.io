@@ -1,4 +1,4 @@
-  .navbar{
+        .navbar{
             background-color: black;
             overflow: hidden;
             padding: 0px
@@ -38,8 +38,4 @@
 
         .dropdown:hover .dropdown-content{
             display: block;
-        }
-
-        .navbar .active{
-            background-color: red;
         }
