@@ -16,23 +16,51 @@
         }
         #left-pane{
             background-color: green;
-            height:100%
+            height:100%;
             float: left;
-            width: 56%
+            width: 56%;
            
         }
         #right-pane{
             background-color: blue;
-            height:100%
+            height:100%;
             float: left;
-            width: 44%`
+            width: 44%;
            
         }
         #story-text{
             background-color: yellow;
-            Height: 80%
+            Height: 80%;
+            color: red;
+            font-weight: bold;
+
         }
-        #bottom-choices{
+        #button-choices{
+            background-color: pink;
+            height: 20%;
+
+        }
+        #story_img{
+            max-height: 100%;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .buttons{
+           text-decoration: none;
+           color: white;
+           background-color: black;
+           padding: 10px;
+           border-radius: 8px;
+           font-size: 16px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin: 10px;
 
         }
     </style>
@@ -56,11 +84,23 @@
    </ul>
 
     <div id="container">
-        <div id="left-pane"></div>
-        <div id="right-pane"></div>
-            <div id="story-text"></div>
-            <div id="bottom-choices"></div>
-    </div>
+        <div id="left-pane">
+            <img id="story_img" src="images/Basketball3.jpeg">
+   
+        </div>  
+        <div id="right-pane">
+            <div id="story-text">
+                <p>Welcome to the Ice Cream shop</p>
+                <p>Do you like Ice Cream?</p>
 
+            </div>
+            <div id="button-choices">
+
+                <a class="buttons" href="yes">
+                <a class="buttons" href="no">
+            
+            </div>
+        </div>
+    </div>
     </body>
     </html>
